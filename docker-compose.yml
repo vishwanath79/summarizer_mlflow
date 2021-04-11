@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  hfmlflow:
-    image: hfmlflow
-    build:
-      context: .
-      dockerfile: ./Dockerfile
