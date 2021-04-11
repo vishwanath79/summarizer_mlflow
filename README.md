@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
+- [Sample Invocation](#sampleinvocation)
 - [Usage](#usage)
 - [Deployed at](#deploy)
 
@@ -16,21 +16,12 @@ Details here: https://vishsubramanian.me/hugging-face-with-mlflow/
 
 
 
-## Getting Started <a name = "getting_started"></a>
+## Sample invocation <a name = "sampleinvocation"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+curl -X POST -H "Content-Type:application/json; format=pandas-split" --data '{"columns":["text"],"data":[["Sample Text"]]}' http://127.0.0.1:5000/invocations
 
-docker run -ti hfmlflow:latest
+or run predict_text.py
 
-## Usage <a name = "usage"></a>
-
-To run the app, run:
-
-streamlit run spotify_explorer.py
-
-## Deployed at <a name = "deploy"></a>
-
-https://spotiapp2.azurewebsites.net/
 
 
 
