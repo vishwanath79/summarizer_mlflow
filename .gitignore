@@ -3,6 +3,9 @@ mlflow.db
 mlruns
 artifacts
 .vscode
+docker
+.docker*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

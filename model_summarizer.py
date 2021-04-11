@@ -71,3 +71,6 @@ with mlflow.start_run(run_name="hf_summarizer") as run:
                             input_example=None, await_registration_for=0)
 
 #curl -X POST -H "Content-Type:application/json; format=pandas-split" --data '{"columns":["text"],"data":[["H.P.Lovecraft wrote his best books in Masachusettes."]]}' http://127.0.0.1: 5000/invocations
+
+
+#curl -X POST -H "Content-Type:application/json; format=pandas-split" --data '{"columns":["text"],"data":[["Howard Phillips Lovecraft (US: /ˈlʌvkræft/; August 20, 1890 – March 15, 1937) was an American writer of weird and horror fiction, who is known for his creation of what became the Cthulhu Mythos.[n 1]Born in Providence, Rhode Island, Lovecraft spent most of his life in New England. He was born into affluence, but his family's wealth dissipated soon after the death of his grandfather. In 1913, he wrote a critical letter to a pulp magazine that ultimately led to his involvement in pulp fiction.H.P.Lovecraft wrote his best books in Masachusettes."]]}' http://127.0.0.1: 5000/invocations
