@@ -4,8 +4,6 @@
 
 - [About](#about)
 - [Sample Invocation](#sampleinvocation)
-- [Usage](#usage)
-- [Deployed at](#deploy)
 
 
 ## About <a name = "about"></a>
